@@ -166,7 +166,7 @@
                             </constraints>
                         </view>
                     </box>
-                    <box borderType="line" title="地址偏移 dli_fbase" translatesAutoresizingMaskIntoConstraints="NO" id="o8b-PU-Uou">
+                    <box borderType="line" title="地址偏移 Base Address" translatesAutoresizingMaskIntoConstraints="NO" id="o8b-PU-Uou">
                         <rect key="frame" x="5" y="201" width="490" height="44"/>
                         <view key="contentView" id="3gh-NU-QXn">
                             <rect key="frame" x="3" y="3" width="484" height="26"/>
@@ -188,6 +188,7 @@
                                 <constraint firstItem="TPI-LZ-qpP" firstAttribute="leading" secondItem="3gh-NU-QXn" secondAttribute="leading" constant="4" id="uzN-Yw-i35"/>
                             </constraints>
                         </view>
+                        <font key="titleFont" size="11" name=".PingFangSC-Regular"/>
                     </box>
                     <box borderType="line" title="可能错误的地方" translatesAutoresizingMaskIntoConstraints="NO" id="SIw-er-Ij9">
                         <rect key="frame" x="5" y="4" width="490" height="104"/>
